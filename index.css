@@ -1,0 +1,87 @@
+img {
+    display: block;
+    height: 100%;
+}
+
+header {
+    background-color: aqua;
+    height: 70px;
+    ;
+    display: flex;
+    height: 100%;
+
+}
+
+nav {
+    display: flex;
+    border-collapse: collapse;
+}
+
+a.amer {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+    border: 0px solid black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+div.mid {
+    display: flex;
+    background-color: darkseagreen;
+    height: 70px;
+    text-align: center;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.check-mark {
+    color: green;
+    display: block;
+    justify-content: center;
+    align-self: center;
+    margin-left: 10px;
+    padding: ;
+}
+
+.under {
+    display: block;
+    align-self: center;
+    text-decoration: line-through;
+
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 2px solid green;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+td,
+th {
+    border: 2px solid green;
+    text-align: center;
+    background-color: bisque;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+.my-rule {
+    background-color: red !important;
+}
+
+footer {
+    background-color: blueviolet;
+    font-size: xx-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
